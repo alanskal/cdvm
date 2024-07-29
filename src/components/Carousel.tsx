@@ -22,15 +22,17 @@ export function EmblaCarousel() {
           <Image
           alt='test'
           src='/images/justeprvoir.jpg'
-          width={500}
-          height={100}
+
+
+          objectFit='cover'
+          layout='fill'
           />
         </div>
         <div className="embla__slide">
           <Image
             alt='test'
             src='/images/justeprvoir2.jpg'
-            width={500}
+            width={799}
             height={100}
             />
         </div>

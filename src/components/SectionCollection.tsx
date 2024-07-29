@@ -5,7 +5,7 @@ export default function SectionCollection() {
   return (
     <>
     <header>
-      <h1 className="flex justify-center text-blue">Notre Collection</h1>
+      <h2 className="flex justify-center text-blue">Notre Collection</h2>
     </header>
       <section className="mb-12">
         <div className="flex justify-around">

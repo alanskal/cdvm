@@ -37,19 +37,22 @@ p {
 }
 
 .embla {
+  position: relative;
+  max-width: 70%;
+  margin: 0 auto;
   overflow: hidden;
-  border: 1px solid #000;
-
-
 }
+
 .embla__container {
   display: flex;
-
-
-
+  min-width: 100%;
 }
-.embla__slide {
-  flex: 0 0 100%;
-  min-width: 0;
 
+.embla__slide {
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

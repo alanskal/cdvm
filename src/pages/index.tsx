@@ -8,6 +8,7 @@ import {EmblaCarousel} from "@/components/Carousel";
 import SectionCollection from "@/components/SectionCollection";
 import IntroBoutique from "@/components/IntroBoutique";
 import EventsComing from "@/components/EventsComing";
+import NosPartenaires from "@/components/NosPartenaires";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function Home() {
           <SectionCollection/>
             <IntroBoutique />
               <EventsComing/>
+                <NosPartenaires/>
       </main>
     </>
   );

@@ -5,9 +5,9 @@ export default function SectionCollection() {
   return (
     <>
     <header>
-      <h2 className="flex justify-center text-blue">Notre Collection</h2>
+      <h1 className="flex justify-center text-blue">Notre Collection</h1>
     </header>
-      <section className="mb-16">
+      <section className="mb-12">
         <div className="flex justify-around">
           <Image
             src="/images/petiteimage.jpg"

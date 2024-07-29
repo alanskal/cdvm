@@ -35,3 +35,21 @@ p {
   font-family: "Oktah Round", sans-serif;
   font-size: 14pt;
 }
+
+.embla {
+  overflow: hidden;
+  border: 1px solid #000;
+
+
+}
+.embla__container {
+  display: flex;
+
+
+
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+
+}

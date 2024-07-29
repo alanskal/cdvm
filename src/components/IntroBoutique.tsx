@@ -1,12 +1,23 @@
 import Image from "next/image";
 
 export default function IntroBoutique() {
-  return(
-    <div className="container">
-      <div className="flex">
-      <h2 className="text-red">Notre boutique seconde main</h2>
-      <p>blablabla</p>
+  return (
+    <div className="container mx-auto py-8 mb-12">
+      <div className="grid grid-cols-7 justify-items-center">
+        <div className="col-span-3 flex flex-col justify-start">
+          <h1 className="text-red ">Notre boutique seconde main</h1>
+          <p>blablablablablablablablablablablabla</p>
+        </div>
+        <div className="col-span-4">
+          <Image
+            src='/images/justeprvoir.jpg'
+            alt="test"
+            width={800}
+            height={500}
+            className="object-contain"
+          />
+        </div>
       </div>
     </div>
-  )
+  );
 }

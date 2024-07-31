@@ -2,9 +2,9 @@ export default function EventsComing() {
   return (
   <div className="mx-auto container mb-12">
     <div className="grid grid-cols-10 justify-items-center">
-      <p className="col-start-3 flex justify-self-end text-beige">Les</p>
+      <p className="col-start-3 flex justify-self-end text-beige à-venir">Les</p>
       <h2 className="col-start-4 col-end-8 text-beige">ÉVÈNEMENTS</h2>
-      <p className="col-start-8 flex justify-self-start self-end text-beige">à venir...</p>
+      <p className="col-start-8 flex justify-self-start self-end text-beige à-venir">à venir...</p>
 
     </div>
     <div className="grid grid-cols-8 ">

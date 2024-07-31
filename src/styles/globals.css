@@ -9,6 +9,7 @@
   font-style: normal;
 }
 
+
 @font-face {
   font-family: 'Oktah Round';
   src: url('./font/okath-regular.otf');
@@ -24,6 +25,7 @@ h1 {
 h2 {
   font-family: "Oktah Round", sans-serif;
   font-size: 45pt;
+  font-weight: 600;
 }
 
 p {
@@ -55,4 +57,12 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.à-venir {
+  font-weight: 600;
+}
+
+.Navbar p {
+  font-weight: 400;
 }

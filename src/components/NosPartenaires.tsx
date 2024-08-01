@@ -19,13 +19,13 @@
                 />
               </div>
                 <div className='w-[160px]'>
-                  <p> Bliblabalbal nlouaaaaaaaa</p>
+                  <p> At vero eos et accusamus et iusto odio dignissimos ducimus</p>
                 </div>
             </div>
             <div className="col-span-1 flex items-center justify-center text-center py-16 ">
               <div className='relative w-[120px] h-[120px] mr-2'>
                 <Image
-                src="/images/justeprvoir.jpg"
+                src="/images/home/homeprofile.jpg"
                 alt="justeprvoir"
                 layout='fill'
                 objectFit='cover'
@@ -33,7 +33,7 @@
                 />
               </div>
                 <div className='w-[160px]'>
-                  <p> Bliblabalbal nlouaaaaaaaa</p>
+                  <p> blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
                 </div>
             </div>
           </div>

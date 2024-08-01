@@ -4,7 +4,7 @@ import Autoplay from 'embla-carousel-autoplay'
 import Image from 'next/image'
 
 export function EmblaCarousel() {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false }, [Autoplay()])
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay()])
 
   const scrollPrev = useCallback(() => {
     if (emblaApi) emblaApi.scrollPrev()
@@ -22,8 +22,7 @@ export function EmblaCarousel() {
           <Image
           alt='test'
           src='/images/justeprvoir.jpg'
-
-
+          className='rounded'
           objectFit='cover'
           layout='fill'
 
@@ -33,8 +32,9 @@ export function EmblaCarousel() {
           <Image
             alt='test'
             src='/images/justeprvoir2.jpg'
-           objectFit='cover'
-          layout='fill'
+            objectFit='cover'
+            layout='fill'
+            className='rounded'
             />
         </div>
         <div className="embla__slide">Slide 3</div>

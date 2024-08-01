@@ -10,7 +10,7 @@ export default function IntroBoutique() {
         </div>
         <div className="col-span-4">
           <Image
-            src='/images/justeprvoir.jpg'
+            src='/images/home/homepfw.jpg'
             alt="test"
             width={800}
             height={500}

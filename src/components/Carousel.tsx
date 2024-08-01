@@ -18,7 +18,7 @@ export function EmblaCarousel() {
   return (
     <div className="embla" ref={emblaRef}>
       <div className="embla__container">
-        <div className="embla__slide">
+        <div className="embla__slide relative">
           <Image
           alt='test'
           src='/images/justeprvoir.jpg'
@@ -26,14 +26,15 @@ export function EmblaCarousel() {
 
           objectFit='cover'
           layout='fill'
+
           />
         </div>
         <div className="embla__slide">
           <Image
             alt='test'
             src='/images/justeprvoir2.jpg'
-            width={799}
-            height={100}
+           objectFit='cover'
+          layout='fill'
             />
         </div>
         <div className="embla__slide">Slide 3</div>

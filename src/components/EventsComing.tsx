@@ -8,16 +8,16 @@ export default function EventsComing() {
 
     </div>
     <div className="grid grid-cols-8 ">
-      <div className="col-start-3 col-span-1 border break-words px-4 py-4  ">
+      <div className="col-start-3 col-span-1 border border-beige border-y-2 border-l-2 rounded-l color-red break-words px-4 py-4  ">
         <p>Soirée de lancement</p>
       </div>
-      <div className="col-span-1 border break-words px-4 py-4">
+      <div className="col-span-1 border border-beige border-y-2 break-words px-4 py-4">
         <p>Vendredi 4 aout</p>
       </div>
-      <div className="col-span-1 border break-words px-4 py-4 ">
+      <div className="col-span-1 border border-beige border-y-2 break-words px-4 py-4 ">
         <p>15H</p>
       </div>
-      <div className="col-span-1 border break-words px-4 py-4">
+      <div className="col-span-1 border border-beige border-y-2 border-r-2 roundebeige break-words px-4 py-4">
         <p>Lyon</p>
       </div>
      </div>

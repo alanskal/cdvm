@@ -17,14 +17,14 @@ export default function SectionCollection() {
             className="border rounded"
           />
           <Image
-            src="/images/petiteimage.jpg"
+            src="/images/collections/collec2.jpeg"
             alt="test"
             width={150}
             height={150}
             className="border rounded"
           />
           <Image
-            src="/images/petiteimage.jpg"
+            src="/images/collections/collec3.jpg"
             alt="test"
             width={150}
             height={150}
@@ -32,10 +32,11 @@ export default function SectionCollection() {
           />
 
           <Image
-            src="/images/petiteimage.jpg"
+            src="/images/collections/collec4.jpg"
             alt="test"
             width={150}
             height={150}
+            layout="contain"
             className="border rounded"
           />
 

@@ -11,7 +11,7 @@
             <div className="col-span-1 flex items-center justify-center text-center py-16 ">
               <div className='relative w-[120px] h-[120px] mr-2'>
                 <Image
-                src="/images/justeprvoir.jpg"
+                src="/images/home/justeprvoir.jpg"
                 alt="justeprvoir"
                 layout='fill'
                 objectFit='cover'

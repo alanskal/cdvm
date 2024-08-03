@@ -21,7 +21,7 @@ export function EmblaCarousel() {
         <div className="embla__slide relative">
           <Image
           alt='test'
-          src='/images/justeprvoir.jpg'
+          src='/images/home/homepfw.jpg'
           className='rounded'
           objectFit='cover'
           layout='fill'
@@ -37,7 +37,15 @@ export function EmblaCarousel() {
             className='rounded'
             />
         </div>
-        <div className="embla__slide">Slide 3</div>
+        <div className="embla__slide">
+        <Image
+            alt='test'
+            src='/images/home/homepfw3.jpg'
+            objectFit='cover'
+            layout='fill'
+            className='rounded'
+            />
+        </div>
 
       </div>
       <button className="embla__prev" onClick={scrollPrev}>

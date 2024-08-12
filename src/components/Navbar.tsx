@@ -17,7 +17,7 @@ export default function Navbar() {
           <Link href='/' className='text-red' ><p>Boutique</p></Link>
           <Link href='/' className='text-red' ><p>Évenement</p></Link>
           <Link href='/' className='text-red' ><p>À propos</p></Link>
-          <Link href='/' className='text-red' ><p>RGPD</p></Link>
+          <Link href='/' className='text-red' ><p>Rejoignez-nous</p></Link>
           <Link href='/' className='text-red' ><p>Rechercher</p> </Link>
 
 

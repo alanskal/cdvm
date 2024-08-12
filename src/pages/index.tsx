@@ -20,13 +20,17 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main className="mb-[4rem]">
         <EmblaCarousel/>
-          <SectionCollection/>
-            <IntroBoutique />
-              <EventsComing/>
-                <NosPartenaires/>
+        <SectionCollection/>
+        <IntroBoutique />
+        <EventsComing/>
+        <NosPartenaires/>
       </main>
+        <footer>
+        <hr />
+        <p>salut</p>
+        </footer>
     </>
   );
 }

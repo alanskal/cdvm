@@ -32,7 +32,7 @@ export default function Archives() {
 
             <Link href='/archives/80'>
               <div className="col-span-1 row-span-1 h-[200px] relative">
-                <Image src="/images/archives/archive3.png" layout='fill' alt="archive3"className='rounded'/>
+                <Image src="/images/archives/archive3.PNG" layout='fill' alt="archive3"className='rounded'/>
               </div>
             </Link>
 

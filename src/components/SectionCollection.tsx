@@ -10,7 +10,7 @@ export default function SectionCollection() {
       <section className="mb-12">
         <div className="flex justify-around">
           <Image
-            src="/images/petiteimage.jpg"
+            src="/images/home/petiteimage.jpg"
             alt="test"
             width={150}
             height={150}

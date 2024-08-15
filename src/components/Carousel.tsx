@@ -31,7 +31,7 @@ export function EmblaCarousel() {
         <div className="embla__slide">
           <Image
             alt='test'
-            src='/images/justeprvoir2.jpg'
+            src='/images/home/justeprvoir2.jpg'
             objectFit='cover'
             layout='fill'
             className='rounded'

@@ -67,3 +67,10 @@ p {
 .Navbar p {
   font-weight: 400;
 }
+
+.event-title {
+  color: white;
+  background-color: #1E4E98;
+  padding: 12px;
+  border-radius: 12px;
+}

@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function EventsComing() {
 
   return (
@@ -32,6 +34,13 @@ export default function EventsComing() {
         </div>
       </div>
 
+      <div className=" flex justify-end">
+        <Link href="/evenements">
+          <button type="button" className="bg-blue rounded-xl text-[white] px-10">
+            <p>Voir +</p>
+          </button>
+        </Link>
+      </div>
 
     </div>
   </div>
